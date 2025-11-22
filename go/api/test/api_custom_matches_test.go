@@ -11,10 +11,11 @@ package deadlock_api_client
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/NickGroveSE/openapi-clients-deadlock/go/api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_deadlock_api_client_CustomMatchesAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_deadlock_api_client_CustomMatchesAPIService(t *testing.T) {
 
 	t.Run("Test CustomMatchesAPIService CreateCustom", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.CustomMatchesAPI.CreateCustom(context.Background()).Execute()
 
@@ -36,7 +37,7 @@ func Test_deadlock_api_client_CustomMatchesAPIService(t *testing.T) {
 
 	t.Run("Test CustomMatchesAPIService GetCustom", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var partyId int64
 
@@ -50,7 +51,7 @@ func Test_deadlock_api_client_CustomMatchesAPIService(t *testing.T) {
 
 	t.Run("Test CustomMatchesAPIService ReadyUp", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var lobbyId string
 
@@ -63,7 +64,7 @@ func Test_deadlock_api_client_CustomMatchesAPIService(t *testing.T) {
 
 	t.Run("Test CustomMatchesAPIService Unready", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var lobbyId string
 

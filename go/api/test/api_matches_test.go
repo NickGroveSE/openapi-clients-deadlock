@@ -11,10 +11,11 @@ package deadlock_api_client
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/NickGroveSE/openapi-clients-deadlock/go/api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_deadlock_api_client_MatchesAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_deadlock_api_client_MatchesAPIService(t *testing.T) {
 
 	t.Run("Test MatchesAPIService ActiveMatches", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MatchesAPI.ActiveMatches(context.Background()).Execute()
 
@@ -36,7 +37,7 @@ func Test_deadlock_api_client_MatchesAPIService(t *testing.T) {
 
 	t.Run("Test MatchesAPIService ActiveMatchesRaw", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MatchesAPI.ActiveMatchesRaw(context.Background()).Execute()
 
@@ -48,7 +49,7 @@ func Test_deadlock_api_client_MatchesAPIService(t *testing.T) {
 
 	t.Run("Test MatchesAPIService BulkMetadata", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MatchesAPI.BulkMetadata(context.Background()).Execute()
 
@@ -60,7 +61,7 @@ func Test_deadlock_api_client_MatchesAPIService(t *testing.T) {
 
 	t.Run("Test MatchesAPIService Metadata", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var matchId int64
 
@@ -73,7 +74,7 @@ func Test_deadlock_api_client_MatchesAPIService(t *testing.T) {
 
 	t.Run("Test MatchesAPIService MetadataRaw", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var matchId int64
 
@@ -87,7 +88,7 @@ func Test_deadlock_api_client_MatchesAPIService(t *testing.T) {
 
 	t.Run("Test MatchesAPIService RecentlyFetched", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MatchesAPI.RecentlyFetched(context.Background()).Execute()
 
@@ -99,7 +100,7 @@ func Test_deadlock_api_client_MatchesAPIService(t *testing.T) {
 
 	t.Run("Test MatchesAPIService Salts", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var matchId int64
 
@@ -113,7 +114,7 @@ func Test_deadlock_api_client_MatchesAPIService(t *testing.T) {
 
 	t.Run("Test MatchesAPIService Url", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var matchId int64
 

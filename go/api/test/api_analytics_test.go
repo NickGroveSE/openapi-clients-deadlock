@@ -11,10 +11,11 @@ package deadlock_api_client
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/NickGroveSE/openapi-clients-deadlock/go/api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService AbilityOrderStats", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.AbilityOrderStats(context.Background()).Execute()
 
@@ -36,7 +37,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService BadgeDistribution", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.BadgeDistribution(context.Background()).Execute()
 
@@ -48,7 +49,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService BuildItemStats", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.BuildItemStats(context.Background()).Execute()
 
@@ -60,7 +61,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService HeroCombStats", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.HeroCombStats(context.Background()).Execute()
 
@@ -72,7 +73,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService HeroCountersStats", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.HeroCountersStats(context.Background()).Execute()
 
@@ -84,7 +85,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService HeroScoreboard", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.HeroScoreboard(context.Background()).Execute()
 
@@ -96,7 +97,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService HeroStats", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.HeroStats(context.Background()).Execute()
 
@@ -108,7 +109,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService HeroSynergiesStats", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.HeroSynergiesStats(context.Background()).Execute()
 
@@ -120,7 +121,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService ItemPermutationStats", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.ItemPermutationStats(context.Background()).Execute()
 
@@ -132,7 +133,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService ItemStats", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.ItemStats(context.Background()).Execute()
 
@@ -144,7 +145,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService KillDeathStats", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.KillDeathStats(context.Background()).Execute()
 
@@ -156,7 +157,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService PlayerScoreboard", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.PlayerScoreboard(context.Background()).Execute()
 
@@ -168,7 +169,7 @@ func Test_deadlock_api_client_AnalyticsAPIService(t *testing.T) {
 
 	t.Run("Test AnalyticsAPIService PlayerStatsMetrics", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalyticsAPI.PlayerStatsMetrics(context.Background()).Execute()
 

@@ -11,10 +11,11 @@ package deadlock_api_client
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/NickGroveSE/openapi-clients-deadlock/go/api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_deadlock_api_client_MMRAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_deadlock_api_client_MMRAPIService(t *testing.T) {
 
 	t.Run("Test MMRAPIService HeroMmr", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var heroId int32
 
@@ -38,7 +39,7 @@ func Test_deadlock_api_client_MMRAPIService(t *testing.T) {
 
 	t.Run("Test MMRAPIService HeroMmrDistribution", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var heroId int32
 
@@ -52,7 +53,7 @@ func Test_deadlock_api_client_MMRAPIService(t *testing.T) {
 
 	t.Run("Test MMRAPIService HeroMmrHistory", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var accountId int32
 		var heroId int32
@@ -67,7 +68,7 @@ func Test_deadlock_api_client_MMRAPIService(t *testing.T) {
 
 	t.Run("Test MMRAPIService Mmr", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MMRAPI.Mmr(context.Background()).Execute()
 
@@ -79,7 +80,7 @@ func Test_deadlock_api_client_MMRAPIService(t *testing.T) {
 
 	t.Run("Test MMRAPIService MmrDistribution", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MMRAPI.MmrDistribution(context.Background()).Execute()
 
@@ -91,7 +92,7 @@ func Test_deadlock_api_client_MMRAPIService(t *testing.T) {
 
 	t.Run("Test MMRAPIService MmrHistory", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var accountId int32
 

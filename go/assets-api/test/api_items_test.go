@@ -11,10 +11,11 @@ package assets_deadlock_api_client
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/NickGroveSE/openapi-clients-deadlock/go/assets-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_assets_deadlock_api_client_ItemsAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_assets_deadlock_api_client_ItemsAPIService(t *testing.T) {
 
 	t.Run("Test ItemsAPIService GetItemV2ItemsIdOrClassNameGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var idOrClassName string
 
@@ -38,7 +39,7 @@ func Test_assets_deadlock_api_client_ItemsAPIService(t *testing.T) {
 
 	t.Run("Test ItemsAPIService GetItemsByHeroIdV2ItemsByHeroIdIdGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int32
 
@@ -52,7 +53,7 @@ func Test_assets_deadlock_api_client_ItemsAPIService(t *testing.T) {
 
 	t.Run("Test ItemsAPIService GetItemsBySlotTypeV2ItemsBySlotTypeSlotTypeGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var slotType openapiclient.ItemSlotTypeV2
 
@@ -66,7 +67,7 @@ func Test_assets_deadlock_api_client_ItemsAPIService(t *testing.T) {
 
 	t.Run("Test ItemsAPIService GetItemsByTypeV2ItemsByTypeTypeGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var type_ openapiclient.ItemTypeV2
 
@@ -80,7 +81,7 @@ func Test_assets_deadlock_api_client_ItemsAPIService(t *testing.T) {
 
 	t.Run("Test ItemsAPIService GetItemsV2ItemsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ItemsAPI.GetItemsV2ItemsGet(context.Background()).Execute()
 

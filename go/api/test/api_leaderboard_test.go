@@ -11,10 +11,11 @@ package deadlock_api_client
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/NickGroveSE/openapi-clients-deadlock/go/api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_deadlock_api_client_LeaderboardAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_deadlock_api_client_LeaderboardAPIService(t *testing.T) {
 
 	t.Run("Test LeaderboardAPIService Leaderboard", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var region string
 
@@ -38,7 +39,7 @@ func Test_deadlock_api_client_LeaderboardAPIService(t *testing.T) {
 
 	t.Run("Test LeaderboardAPIService LeaderboardHero", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var region string
 		var heroId int32
@@ -53,7 +54,7 @@ func Test_deadlock_api_client_LeaderboardAPIService(t *testing.T) {
 
 	t.Run("Test LeaderboardAPIService LeaderboardHeroRaw", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var region string
 		var heroId int32
@@ -68,7 +69,7 @@ func Test_deadlock_api_client_LeaderboardAPIService(t *testing.T) {
 
 	t.Run("Test LeaderboardAPIService LeaderboardRaw", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var region string
 

@@ -11,10 +11,11 @@ package assets_deadlock_api_client
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/NickGroveSE/openapi-clients-deadlock/go/assets-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_assets_deadlock_api_client_MiscEntitiesAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_assets_deadlock_api_client_MiscEntitiesAPIService(t *testing.T) {
 
 	t.Run("Test MiscEntitiesAPIService GetMiscEntitiesV2MiscEntitiesGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MiscEntitiesAPI.GetMiscEntitiesV2MiscEntitiesGet(context.Background()).Execute()
 
@@ -36,7 +37,7 @@ func Test_assets_deadlock_api_client_MiscEntitiesAPIService(t *testing.T) {
 
 	t.Run("Test MiscEntitiesAPIService GetMiscEntityV2MiscEntitiesIdOrClassNameGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var idOrClassName string
 

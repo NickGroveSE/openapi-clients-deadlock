@@ -11,10 +11,11 @@ package assets_deadlock_api_client
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/NickGroveSE/openapi-clients-deadlock/go/assets-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_assets_deadlock_api_client_DefaultAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_assets_deadlock_api_client_DefaultAPIService(t *testing.T) {
 
 	t.Run("Test DefaultAPIService GetBuildTagsV2BuildTagsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DefaultAPI.GetBuildTagsV2BuildTagsGet(context.Background()).Execute()
 
@@ -36,7 +37,7 @@ func Test_assets_deadlock_api_client_DefaultAPIService(t *testing.T) {
 
 	t.Run("Test DefaultAPIService GetClientVersionsV2ClientVersionsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DefaultAPI.GetClientVersionsV2ClientVersionsGet(context.Background()).Execute()
 
@@ -48,7 +49,7 @@ func Test_assets_deadlock_api_client_DefaultAPIService(t *testing.T) {
 
 	t.Run("Test DefaultAPIService GetColorsV1ColorsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DefaultAPI.GetColorsV1ColorsGet(context.Background()).Execute()
 
@@ -60,7 +61,7 @@ func Test_assets_deadlock_api_client_DefaultAPIService(t *testing.T) {
 
 	t.Run("Test DefaultAPIService GetIconsV1IconsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DefaultAPI.GetIconsV1IconsGet(context.Background()).Execute()
 
@@ -72,7 +73,7 @@ func Test_assets_deadlock_api_client_DefaultAPIService(t *testing.T) {
 
 	t.Run("Test DefaultAPIService GetMapV1MapGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DefaultAPI.GetMapV1MapGet(context.Background()).Execute()
 
@@ -84,7 +85,7 @@ func Test_assets_deadlock_api_client_DefaultAPIService(t *testing.T) {
 
 	t.Run("Test DefaultAPIService GetRanksV2RanksGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DefaultAPI.GetRanksV2RanksGet(context.Background()).Execute()
 
@@ -96,7 +97,7 @@ func Test_assets_deadlock_api_client_DefaultAPIService(t *testing.T) {
 
 	t.Run("Test DefaultAPIService GetSoundsV1SoundsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DefaultAPI.GetSoundsV1SoundsGet(context.Background()).Execute()
 
@@ -108,7 +109,7 @@ func Test_assets_deadlock_api_client_DefaultAPIService(t *testing.T) {
 
 	t.Run("Test DefaultAPIService GetSteamInfoV1SteamInfoGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DefaultAPI.GetSteamInfoV1SteamInfoGet(context.Background()).Execute()
 

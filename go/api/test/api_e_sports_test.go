@@ -11,10 +11,11 @@ package deadlock_api_client
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/NickGroveSE/openapi-clients-deadlock/go/api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_deadlock_api_client_ESportsAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_deadlock_api_client_ESportsAPIService(t *testing.T) {
 
 	t.Run("Test ESportsAPIService IngestMatch", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ESportsAPI.IngestMatch(context.Background()).Execute()
 
@@ -35,7 +36,7 @@ func Test_deadlock_api_client_ESportsAPIService(t *testing.T) {
 
 	t.Run("Test ESportsAPIService Matches", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ESportsAPI.Matches(context.Background()).Execute()
 
